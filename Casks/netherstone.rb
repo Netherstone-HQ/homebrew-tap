@@ -1,15 +1,15 @@
 # The release workflow fills this in and commits it to Netherstone-HQ/homebrew-tap
 # as Casks/netherstone.rb. Change it here, not in the tap.
 cask "netherstone" do
-  version "0.6.0-beta.4"
+  version "0.6.0-beta.5"
 
   on_arm do
-    sha256 "c0192adadc2b98f816fb51a02df8fa01b546104b9300b33f8861696a07502475"
-    url "https://github.com/Netherstone-HQ/Netherstone/releases/download/v0.6.0-beta.4/Netherstone_0.6.0-beta.4_aarch64.dmg"
+    sha256 "db0c09eb1c89fb5f0e710c99347b637c6d2feddd8cd59c715737c0e97585064e"
+    url "https://github.com/Netherstone-HQ/Netherstone/releases/download/v0.6.0-beta.5/Netherstone_0.6.0-beta.5_aarch64.dmg"
   end
   on_intel do
-    sha256 "a7b042be33be81f6d13bf44c4c7e6942a80517ce8e45296eb903fabffeef0e13"
-    url "https://github.com/Netherstone-HQ/Netherstone/releases/download/v0.6.0-beta.4/Netherstone_0.6.0-beta.4_x64.dmg"
+    sha256 "148739a8ae9fcc4315e3a214c15247cb90f59971bd369f1b2f8563b6645dd5a1"
+    url "https://github.com/Netherstone-HQ/Netherstone/releases/download/v0.6.0-beta.5/Netherstone_0.6.0-beta.5_x64.dmg"
   end
 
   name "Netherstone"
